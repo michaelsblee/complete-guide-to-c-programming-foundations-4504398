@@ -26,7 +26,7 @@ int main()
 	for(x=0;x<16;x++)
 	{
 		printf("%04X - %s\n",a,binString(a));
-		a = a << 1;
+		a = a << 2;
 	}
 
 	return(0);
