@@ -9,6 +9,12 @@ int main()
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
 	
+	int roll(void){
+		int r = rand() % 6;
+		r += 1;
+		return(r);	
+	}
+
 	puts("Roll them bones!");
 	r = rand() % 6;
 	r += 1;

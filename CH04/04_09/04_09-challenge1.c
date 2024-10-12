@@ -5,9 +5,16 @@ int main()
 	int a;
 
 	printf("How long is the line? ");
-	scanf("%d",&a);
+	scanf("%d", &a);
 
 	/* write the loop here */
-
-	return(0);
+	/*for (int i = 0; i < a; i++)
+		putchar('-');
+	return(0);*/
+	while (a > 0)
+	{
+		putchar('-');
+		a--;
+	}
+	putchar('\n');
 }

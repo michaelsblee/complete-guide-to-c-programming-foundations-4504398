@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+void line(void) {
+	for (int i = 0; i < 40; i++)
+		printf("-");
+	printf("\n");
+}
+
 int main()
 {
 	puts("How to Fight Off a Robot Attack");

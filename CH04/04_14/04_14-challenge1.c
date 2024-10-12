@@ -7,12 +7,14 @@
 int main()
 {
 	// variable declarations
-			
+	int ch, done;
 	/* main program loop */
 	done = FALSE;
 	while(!done)
 	{
 		// prompt for input
+		printf("Command: ");
+		ch = getchar();
 		// process input
 		// if R is input, output "move right"
 		// if L is input, output "move left"
