@@ -9,6 +9,7 @@ int main()
 
 	/* build the string */
 	strcpy(full,first);
+	strcat(full," ");
 	strcat(full,last);
 
 	printf("Pleased to meet you, %s\n",full);

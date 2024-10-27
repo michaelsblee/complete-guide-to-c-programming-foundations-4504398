@@ -27,8 +27,19 @@ int main()
 
 struct person fill(void)
 {
+	static struct person y;
+
+	printf("Your name: ");
+	fgets(y.name, SIZE, stdin);
+	printf("Your id: ");
+	scanf("%d", &y.id);
+
+	return (y);
 }
 
 void output(struct person y)
 {
+	printf("ID %d belongs to %s\n",
+				 y.id,
+				 y.name);
 }

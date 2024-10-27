@@ -20,5 +20,8 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "typeinfo": "c"
+  }
 }
